@@ -43,9 +43,7 @@ export const DashboardChart = () => {
 
     const options = {
       plugins: {
-        legend: {
-              position: "right",
-        },
+        legend: true
       },
       scales: {
         y: {
@@ -65,7 +63,7 @@ export const DashboardChart = () => {
           <img src="/images/calender.png" alt="calender" />
         </div>
       </div>
-      <div className="bg-white p-16 rounded-[8px] w-[600px]">
+      <div className="bg-white px-4 py-16 rounded-[8px] w-[600px]">
         <Line data={data} options={options}></Line>
       </div>
     </>
