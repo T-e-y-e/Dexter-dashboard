@@ -16,7 +16,7 @@ export const Sidebar = () => {
         </div>
         <ul className="space-y-4 font-medium">
           <li
-            className={`text-[#CFCCD6] hover:text-[#FFBA49] ${
+            className={`text-[#CFCCD6] text-sm hover:text-[#FFBA49] ${
               pathname === "/" || pathname === "home" ? "text-[#FFBA49]" : ""
             } w-full`}>
             <Link href="/">
@@ -40,7 +40,7 @@ export const Sidebar = () => {
             </Link>
           </li>
           <li
-            className={`text-[#CFCCD6] hover:text-[#FFBA49] ${
+            className={`text-[#CFCCD6] text-sm hover:text-[#FFBA49] ${
               pathname === "/service-request" ? "text-[#FFBA49]" : ""
             } w-full`}>
             <Link href="/service-request">
@@ -78,7 +78,8 @@ export const Sidebar = () => {
               </div>
             </Link>
           </li>
-          <li className={`text-[#CFCCD6] hover:text-[#FFBA49] ${
+          <li
+            className={`text-[#CFCCD6] text-sm hover:text-[#FFBA49] ${
               pathname === "/vendors" ? "text-[#FFBA49]" : ""
             } w-full`}>
             <Link href="/vendors">
@@ -140,7 +141,8 @@ export const Sidebar = () => {
               </div>
             </Link>
           </li>
-          <li className={`text-[#CFCCD6] hover:text-[#FFBA49] ${
+          <li
+            className={`text-[#CFCCD6] text-sm hover:text-[#FFBA49] ${
               pathname === "/users" ? "text-[#FFBA49]" : ""
             } w-full`}>
             <Link href="/users">
@@ -162,7 +164,8 @@ export const Sidebar = () => {
               </div>
             </Link>
           </li>
-          <li className={`text-[#CFCCD6] hover:text-[#FFBA49] ${
+          <li
+            className={`text-[#CFCCD6] text-sm hover:text-[#FFBA49] ${
               pathname === "/services" ? "text-[#FFBA49]" : ""
             } w-full`}>
             <Link href="/services">
@@ -234,7 +237,8 @@ export const Sidebar = () => {
               </div>
             </Link>
           </li>
-          <li className={`text-[#CFCCD6] hover:text-[#FFBA49] ${
+          <li
+            className={`text-[#CFCCD6] hover:text-[#FFBA49] ${
               pathname === "/payments" ? "text-[#FFBA49]" : ""
             } w-full`}>
             <Link href="/payments">
