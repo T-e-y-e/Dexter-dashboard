@@ -2,7 +2,7 @@ import React from "react";
 
 export const TopRatedUsers = () => {
   return (
-    <div className="bg-white shadow-lg p-6 w-[420px] rounded-[8px]">
+    <div className="bg-white shadow-lg p-6 w-[250px] rounded-[8px]">
       <h1 className="text-[#6A6B6D] font-medium text-xl text-center mb-6">
         Top Rated Users
       </h1>

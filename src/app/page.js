@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-16 flex justify-between w-full">
+      <section className="mt-16 flex gap-10 justify-between w-full">
         <div>
           <DashboardChart />
         </div>
