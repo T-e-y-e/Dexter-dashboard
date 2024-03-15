@@ -94,21 +94,23 @@ export const UsersTable = () => {
               <button
                 onClick={() => setFilterType("all")}
                 className={`w-max py-2.5 px-[18px] font-semibold text-[#3A5743] bg-white rounded-full border border-[#3A5743] ${
-                  filterType == "all" ? "bg-green-100" : ""
+                  filterType === "all" ? "bg-green-100 text-[#FFBA49]" : ""
                 }`}>
                 All
               </button>
               <button
                 onClick={() => setFilterType("incomplete")}
                 className={`w-max py-2.5 px-[18px] font-semibold text-[#3A5743] bg-white rounded-full border border-[#3A5743] ${
-                  filterType == "incomplete" ? "bg-green-100" : ""
+                  filterType === "incomplete"
+                    ? "bg-green-100 text-[#FFBA49]"
+                    : ""
                 }`}>
                 Incomplete Registered Users
               </button>
               <button
                 onClick={() => setFilterType("complete")}
                 className={`w-max py-2.5 px-[18px] font-semibold text-[#3A5743] bg-white rounded-full border border-[#3A5743] ${
-                  filterType == "complete" ? "bg-green-100" : ""
+                  filterType === "complete" ? "bg-green-100 text-[#FFBA49]" : ""
                 }`}>
                 Complete Registered Users
               </button>

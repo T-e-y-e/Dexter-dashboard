@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <Topbar pageTitle={"Welcome Dexter Admin,"} />
-      <section className="grid grid-cols-4 gap-10">
-        <div className="bg-white shadow-lg rounded-[10px] p-8">
+      <section className="grid grid-cols-4 gap-8">
+        <div className="bg-white shadow-lg rounded-[10px] px-4 py-6">
           <div>
             <img src="/images/icon-pack1.png" alt="icon pack" />
           </div>
@@ -19,7 +19,7 @@ export default function Home() {
             <p className="text-lg mt-1">Vendors</p>
           </div>
         </div>
-        <div className="bg-white shadow-lg rounded-[10px] p-8">
+        <div className="bg-white shadow-lg rounded-[10px] px-4 py-6">
           <div>
             <img src="/images/icon-pack2.png" alt="icon pack" />
           </div>
@@ -28,7 +28,7 @@ export default function Home() {
             <p className="text-lg mt-1">Active Services</p>
           </div>
         </div>
-        <div className="bg-white shadow-lg rounded-[10px] p-8">
+        <div className="bg-white shadow-lg rounded-[10px] px-4 py-6">
           <div>
             <img src="/images/icon-pack3.png" alt="icon pack" />
           </div>
@@ -37,7 +37,7 @@ export default function Home() {
             <p className="text-lg mt-1">Active Service Requests</p>
           </div>
         </div>
-        <div className="bg-white shadow-lg rounded-[10px] p-8">
+        <div className="bg-white shadow-lg rounded-[10px] px-4 py-6">
           <div>
             <img src="/images/icon-pack4.png" alt="icon pack" />
           </div>
