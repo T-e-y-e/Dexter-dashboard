@@ -63,7 +63,7 @@ export const DashboardChart = () => {
           <img src="/images/calender.png" alt="calender" />
         </div>
       </div>
-      <div className="bg-white px-4 py-16 rounded-[8px] w-[600px]">
+      <div className="bg-white px-4 py-16 rounded-[8px] w-auto">
         <Line data={data} options={options}></Line>
       </div>
     </>
